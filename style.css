@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error_php {
+    display: block;
+    text-align: center;
+    color: rgb(255, 30, 0);
+}
+
+/*login*/
+.wrap {
+    margin: auto;
+    border: 1px solid #888;
+    width: fit-content;
+}
+
+.header {
+    color: #fff;
+    background-color: #00a6fff2;
+    text-align: center;
+    padding: 16px 80px;
+}
+
+.input_form {
+    margin: 20px 0px 0px;
+    text-align: center;
+}
+
+.input_class {
+    font-size: 16px;
+    padding: 6px;
+    width: 88%;
+    
+}
+
+.input_title {
+    margin-left: 18px;
+    display: block;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.login {
+    color: #fff;
+    background-color: #5b69f3db;
+    margin: 16px 0px 0px;
+    font-weight: 900;
+    padding: 5px 8px 4px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login:hover {
+    background-color: #5b69f387;
+    cursor: pointer;
+}
+
+.or {
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.register {
+    text-align: center;
+}
+
+.register_button {
+    margin: 0;
+    background-color: aqua ;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.register_button:hover {
+    background-color: #05d5f1d9;
+}
+
+.register_link {
+    display: block;
+    padding: 5px 22px;
+    text-decoration: none;
+}
+
+.help {
+    text-align: end;
+    margin: 16px 8px 0px;
+}
+
+.help_link {
+    text-decoration: none;
+}
+
+.help_link:hover {
+    color: red;
+}
+
+/*register*/
+
+.main_register {
+    padding: 20px;
+}
+.form_register {
+    text-align: left;
+    width: fit-content;
+}
+
+.input_register {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.code_register {
+    width: 280px;
+}
+
+.botton_register {
+    font-weight: 600;
+    background-color: #ff0000cc;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.botton_register:hover {
+    cursor: pointer;
+    background-color: #ff5722;
+}
+
+/*validate register*/
+.error {
+    font-size: 14px;
+    color: #ff0000db;
+}
